@@ -1,0 +1,13 @@
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+# page
+.vscode/
+.DS_Store
+# product
+auto-mooc
+config.ini
+cache/
+out/

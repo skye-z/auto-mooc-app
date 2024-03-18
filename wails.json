@@ -1,0 +1,13 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "auto-mooc",
+  "outputfilename": "auto-mooc",
+  "frontend:install": "yarn install",
+  "frontend:build": "yarn run build",
+  "frontend:dev:watcher": "yarn run dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "skye",
+    "email": "skai-zhang@hotmail.com"
+  }
+}
