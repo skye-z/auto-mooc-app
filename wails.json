@@ -3,7 +3,7 @@
   "name": "auto-mooc",
   "outputfilename": "auto-mooc",
   "frontend:install": "yarn install",
-  "frontend:build": "vite build",
+  "frontend:build": "vite build --mode development",
   "frontend:dev:watcher": "yarn run dev",
   "frontend:dev:serverUrl": "auto",
   "author": {

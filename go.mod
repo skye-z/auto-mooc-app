@@ -1,9 +1,9 @@
-module changeme
+module github.com/skye-z/auto-mooc-app
 
 go 1.21.6
 
 require (
-	github.com/skye-z/auto-mooc v0.0.0-20240318025956-49e633935503
+	github.com/skye-z/auto-mooc v0.0.0-20240318035435-0c8d295c2726
 	github.com/wailsapp/wails/v2 v2.8.0
 )
 
