@@ -1,19 +1,14 @@
-# README
+# Auto Mooc 2 - 第二代自动化慕课工具
 
-## About
+[![license](https://img.shields.io/badge/License-GPL%20v3.0-orange)](LICENSE)
 
-This is the official Wails Vue template.
+你现在所在的是 `Auto Mooc 2` 的桌面客户端项目.
 
-You can configure the project by editing `wails.json`. More information about the project settings can be found
-here: https://wails.io/docs/reference/project-config
+其他 `Auto Mooc 2` 项目请点击下方链接前往:
 
-## Live Development
+* 服务端: [Service](https://github.com/skye-z/auto-mooc)
+* 网页端: [WebPage](https://github.com/skye-z/auto-mooc-page)
 
-To run in live development mode, run `wails dev` in the project directory. This will run a Vite development
-server that will provide very fast hot reload of your frontend changes. If you want to develop in a browser
-and have access to your Go methods, there is also a dev server that runs on http://localhost:34115. Connect
-to this in your browser, and you can call your Go code from devtools.
+## 运行与编译
 
-## Building
-
-To build a redistributable, production mode package, use `wails build`.
+`Auto Mooc 2` 运行时会在项目目录下产生 `cache` 文件夹, 请在运行或编译前参数此文件夹
