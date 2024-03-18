@@ -2,6 +2,8 @@ package main
 
 import (
 	"embed"
+	"log"
+	"os"
 
 	"github.com/wailsapp/wails/v2"
 	"github.com/wailsapp/wails/v2/pkg/options"
@@ -13,11 +15,11 @@ var assets embed.FS
 
 func main() {
 	app := NewApp()
-
+	log.Println(os.UserConfigDir())
 	err := wails.Run(&options.App{
 		Title:         "Auto Mooc v2",
-		DisableResize: false,
-		Width:         1024,
+		DisableResize: true,
+		Width:         650,
 		Height:        768,
 		AssetServer: &assetserver.Options{
 			Assets: assets,

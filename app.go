@@ -20,8 +20,9 @@ func NewApp() *App {
 func (a *App) startup(ctx context.Context) {
 	a.ctx = ctx
 
-	util.InitConfig()
-	util.Set("basic.workspace", a.UpdateConfigPath())
+	path := a.UpdateConfigPath()
+	util.InitConfig(path)
+	util.Set("basic.workspace", path)
 	router := service.InitNoPageRouter()
 	service.RunRouter(router)
 }
